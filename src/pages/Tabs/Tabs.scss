@@ -1,0 +1,109 @@
+body {
+  background: linear-gradient(100deg, #D78B59, #595FEB);
+  margin: 0 auto;
+}
+
+.tabs__baby{
+  position: relative;
+}
+.baby__face1{
+  position: absolute;
+  top: 450px;
+  left: 330px;
+}
+.baby__face2{
+  position: absolute;
+  top: 750px;
+  left: 1315px;
+}
+
+
+#tabs {
+  display: flex;
+  justify-content: center;
+}
+
+.tab--global {
+  display: flex;
+}
+
+.tab--global__all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tab {
+  padding: 8px;
+  background: #f1f1f1;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.tab:last-child {
+  margin-right: 0;
+}
+
+.tab button {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}
+
+.tab.active {
+  background: #fff;
+}
+.shared-border {
+
+}
+.tabs--img h5{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 24px;
+  color: #FFFFFF;
+  padding: 25px 0 5px 0;
+}
+
+.tabs--img{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tabs__img--top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  border: #FFFFFF;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  padding:10px 0;
+}
+.tabs__img--top h6{
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.tabs__img--top button {
+  color: white;
+  background: rgba(173, 170, 170, 0.5);
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  border-color: #FFFFFF;
+  backdrop-filter: blur(6px);
+}
+.tabs__img--left.special-style {
+  margin-top: 500px;
+  background: red;
+}
+
