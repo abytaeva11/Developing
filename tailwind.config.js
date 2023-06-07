@@ -8,3 +8,13 @@ module.exports = {
   },
   plugins: [],
 }
+
+    extend: {
+      fontFamily:{
+        'sans' : ['Montserrat', 'sans-serif']
+      }
+    },
+  },
+  plugins: [],
+}
+
