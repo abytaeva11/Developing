@@ -1,3 +1,9 @@
+
+@import "pages/Hero/Hero.scss";
+@import "pages/Tabs/Tabs.scss";
+@import "pages/Questions/Questions.scss";
+@import "pages/InfoFollowers/InfoFollowers.scss";
+
 *{
     margin: 0;
     padding: 0;
